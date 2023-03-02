@@ -1,6 +1,36 @@
 # Visual Studio 2015 user specific files
 .vs/
 
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+temp/
+bld/
+[Bb]in/
+[Oo]bj/
+Intermediate/
+Binaries/
+llvm-build/
+llvm-source*/
+
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+
 # Compiled Object files
 *.slo
 *.lo
@@ -72,3 +102,28 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+
+#Unreal Engine
+/UnrealEngine
+StarterContent/
+Saved/
+!DefaultEditorPerProjectUserSettings.ini #contains use less CPU setting
+Binaries/
+Build/
+Debug/
+Intermediate/
+DerivedDataCache/
+UnrealHeaderTool/
+UnrealPak/
+obj/
+.vs/
+.vscode/
+.visuallint/
+*.VC.opendb
+*.VC.db
+*.opensdf
+*.sdf
+*.suo
+*.umap
+*.uasset
